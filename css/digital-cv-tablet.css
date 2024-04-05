@@ -1,0 +1,22 @@
+@media (max-width: 768px){
+  
+  body {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+  }
+
+
+  .project{
+    margin-top: 0px;
+    border-bottom: 2px dotted #4dabf7;
+  }
+  
+  .cs{
+    font-size:40px;
+    /* color:#fff; */
+    border-color: rgb(192, 23, 230); 
+    margin-top: 0px;
+  }
+  
+}
+

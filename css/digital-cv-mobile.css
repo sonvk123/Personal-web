@@ -1,0 +1,39 @@
+@media (max-width: 500px) {
+  
+  body {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+  }
+  
+  h3 {
+    font-weight: 900;
+    border-bottom: 1px solid #adb5bd;
+  }
+  span {
+    font-weight: bold;
+  }
+  #scope span {
+    font-size: 18px;
+  }
+  p {
+    font-weight: 300;
+  }
+
+  .goals {
+    margin-top: 10px;
+    border-bottom: 1px solid #adb5bd;
+  }
+
+  .project {
+    margin-top: 20px;
+    border-bottom: 2px dotted #4dabf7;
+  }
+
+  .cs{
+    font-size:30px;
+    /* color:#fff; */
+    border-color: rgb(192, 23, 230); 
+    margin-top: 0px;
+  }
+}
+
