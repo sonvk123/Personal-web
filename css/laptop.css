@@ -311,15 +311,25 @@ span {
   height: 100%;
 }
 
+.WEB {
+  border-bottom: 2px solid #d6c08d;
+}
 .JAVASCRIPT {
   padding-left: 12px;
   border-left: 2px solid #d6c08d;
+  border-bottom: 2px solid #d6c08d;
 }
-.DATABASE {
-  grid-column: 1 / 3;
-  padding-top: 50px;
-  border-top: 2px solid #d6c08d;
+
+.FRONTEND {
+  padding-top: 30px;
 }
+
+.BACKEND {
+  padding-left: 12px;
+  border-left: 2px solid #d6c08d;
+  padding-top: 30px;
+}
+
 .text {
   font-size: 16px;
   margin-bottom: 10px;
@@ -340,6 +350,7 @@ span {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
 }
+
 #project > .container h1 {
   grid-column: 1 / 4;
 }
@@ -424,16 +435,14 @@ td {
   margin-right: 34px;
 }
 
-.grid-4{
+.grid-4 {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
-@media(max-width:768px){
-  .grid-4{
+@media (max-width: 768px) {
+  .grid-4 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-
 }
-
